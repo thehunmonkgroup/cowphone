@@ -39,6 +39,10 @@ sequence_path = global.profile_path .. "/cowphone/sequences"
 -- Where to send the cowphone.
 cowphone_destination_email = args(1)
 
+-- The cowfile file to use for the cowsay, on RHEL, these are located in
+-- /usr/share/cowsay.
+cowfile = "default.cow"
+
 --[[
   Directory paths.
 ]]
