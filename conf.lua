@@ -36,7 +36,9 @@ sequence_path = global.profile_path .. "/cowphone/sequences"
   The sections below can be customized safely.
 ]]
 
--- Where to send the cowphone.
+-- Where to send the cowphone, this gets the address from the argument passed
+-- when invoking Jester. You can also set the email address here directly:
+-- cowphone_destination_email = "foo@bar.com"
 cowphone_destination_email = args(1)
 
 -- The cowfile file to use for the cowsay, on RHEL, these are located in
