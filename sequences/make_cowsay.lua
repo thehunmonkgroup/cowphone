@@ -9,7 +9,7 @@ return
 {
   {
     action = "shell_command_with_output",
-    command = "cowsay -f " .. profile.cowfile .. " " .. message,
+    command = 'cowsay -f ' .. profile.cowfile .. ' "' .. message .. '"',
   },
   {
     action = "conditional",
