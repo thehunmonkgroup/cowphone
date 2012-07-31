@@ -41,7 +41,8 @@ cowphone_destination_email = args(1)
 
 -- The cowfile file to use for the cowsay, on RHEL, these are located in
 -- /usr/share/cowsay.
-cowfile = "default.cow"
+--cowfile = "default.cow"
+cowfile = "dragon-and-cow.cow"
 
 --[[
   Directory paths.

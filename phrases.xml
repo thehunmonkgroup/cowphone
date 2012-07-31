@@ -3,7 +3,7 @@
   <macro name="record_message">
     <input pattern="^(.*)$">
       <match>
-        <action function="play-file" data="voicemail/vm-record_greeting.wav"/>
+        <action function="play-file" data="voicemail/vm-record_message.wav"/>
       </match>
     </input>
   </macro>
@@ -19,6 +19,7 @@
   <macro name="message_emailed">
     <input pattern="^(.*)$">
       <match>
+        <action function="play-file" data="voicemail/vm-message.wav"/>
         <action function="play-file" data="voicemail/vm-emailed.wav"/>
       </match>
     </input>
