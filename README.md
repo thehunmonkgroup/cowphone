@@ -1,7 +1,7 @@
 # CowPhone #
 Call a phone number, say something, get an email with your words in a [cowsay](http://en.wikipedia.org/wiki/Cowsay)
 
-This was a demo used for http://www.cluecon.com/presentation/stupid-things-you-can-do-voip
+This was a demo used for the 2012 [Cluecon](http://www.cluecon.com) presentation [Stupid Things You Can Do With VoIP](https://www.youtube.com/watch?v=cZSRkkbf1D0).
 
 ## Installation  ##
 
