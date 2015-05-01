@@ -69,3 +69,6 @@ email_templates.cowphone.message = [[
 </html>
 ]]
 
+-- AT&T API app credentials.
+att_app_key = ""
+att_app_secret = ""
