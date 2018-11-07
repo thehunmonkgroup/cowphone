@@ -49,8 +49,7 @@ return
   {
     action = "speech_to_text_from_file",
     filepath = profile.temp_recording_dir .. "/" .. file_to_translate,
-    app_key = profile.att_app_key,
-    app_secret = profile.att_app_secret,
+    api_key = profile.watson_api_key,
   },
   {
     action = "conditional",

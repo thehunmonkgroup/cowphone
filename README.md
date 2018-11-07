@@ -5,7 +5,7 @@ This was a demo used for the 2012 [Cluecon](http://www.cluecon.com) presentation
 
 ## Installation  ##
 
-Install [Jester](http://wiki.freeswitch.org/wiki/Jester)
+Install [Jester](https://freeswitch.org/confluence/display/FREESWITCH/Lua+Toolkit+Jester)
 
 Symlink your cowphone checkout to the Jester profile directory as cowphone,
 something like:
@@ -35,10 +35,8 @@ Set up a transfer to that extension.
 
 For the speech to text portion of the demo to work, you must configure an
 application at the
-[AT & T Developer Portal](http://developer.att.com/apis/speech). Be sure
-to enable the 'Speech To Text' API when creating the app, and note the
-app key and secret. Then, Edit conf.lua, adding values for att_app_key
-and att_app_secret.
+[IBM Developer Portal](https://console.bluemix.net/catalog/services/speech-to-text).
+Note the API key. Then, Edit conf.lua, adding value for watson_api_key
 
 ## Usage ##
 
