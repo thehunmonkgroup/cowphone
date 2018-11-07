@@ -18,7 +18,7 @@ something like:
 
 Add the phrase file to your language config (probably conf/lang/en/en.xml):
 
-    <X-PRE-PROCESS cmd="include" data="$${base_dir}/scripts/jester/profiles/cowphone/phrases.xml"/>
+    <X-PRE-PROCESS cmd="include" data="$${script_dir}/jester/profiles/cowphone/phrases.xml"/>
 
   *Note: this assumes you're using the default sounds, otherwise adjust
    accordingly.*
@@ -28,10 +28,10 @@ Add this extension to your dialplan, replacing EMAIL with a valid email address:
     <!-- Internal extension for CowPhone -->
     <extension name="cowphone">
       <condition field="destination_number" expression="^cowphone$" break="on-true">
-        <action application="answer"/>  
+        <action application="answer"/>
         <action application="sleep" data="1000"/>
         <action application="lua" data="jester/jester.lua cowphone cowphone EMAIL"/>
-        <action application="hangup"/>  
+        <action application="hangup"/>
       </condition>
     </extension>
 

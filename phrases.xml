@@ -28,7 +28,7 @@
   <macro name="goodbye">
     <input pattern="^(.*)$">
       <match>
-        <action function="play-file" data="voicemail/vm-goodbye.wav"/> 
+        <action function="play-file" data="voicemail/vm-goodbye.wav"/>
       </match>
     </input>
   </macro>
@@ -36,7 +36,7 @@
   <macro name="gateway_down">
     <input pattern="^(.*)$">
       <match>
-        <action function="play-file" data="ivr/ivr-gateway_down.wav"/> 
+        <action function="play-file" data="ivr/ivr-gateway_down.wav"/>
       </match>
     </input>
   </macro>
